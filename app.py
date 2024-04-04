@@ -86,7 +86,7 @@ def add_bg_from_url():
          f"""
          <style>
          .stApp {{
-             background-image: url("https://github.com/vaibhavgup3003/SQL-Querry/blob/main/img1.jpg");
+             background-image: url("https://images.unsplash.com/photo-1662026911591-335639b11db6?q=80&w=2062&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
              background-attachment: fixed;
              background-size: cover
          }}
