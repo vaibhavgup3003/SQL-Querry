@@ -76,17 +76,12 @@ def main():
 
        
             # st.code(sql_q, language="sql")
-
-
-
-main() 
-    
 def add_bg_from_url():
     st.markdown(
          f"""
          <style>
          .stApp {{
-             background-image: url("https://images.unsplash.com/photo-1662026911591-335639b11db6?q=80&w=2062&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+             background-image: url("https://blog.enterprisedna.co/wp-content/uploads/2023/04/SQL_1-1-1024x576.png");
              background-attachment: fixed;
              background-size: cover
          }}
@@ -94,4 +89,7 @@ def add_bg_from_url():
          """,
          unsafe_allow_html=True
      )
+
+
+main() 
 add_bg_from_url()
